@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #0b0f1a;
+  background: #19223b;
   color: #fff;
 }
 
@@ -73,6 +73,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
   margin-top: 30px;
+  
 }
 
 .card {
@@ -93,73 +94,6 @@ footer {
   padding: 20px;
   background: #0f1629;
 }
-.laptop {
-  max-width: 1100px;
-  margin: 40px auto;
-  padding: 20px;
-  background: #2b2b2b;
-  border-radius: 20px;
-  box-shadow: 0 40px 80px rgba(0,0,0,0.8);
-}
-
-.orbit-wrapper {
-  position: relative;
-  width: 280px;
-  height: 280px;
-  margin: auto;
-}
-
-.orbit-photo {
-  position: absolute;
-  inset: 30px;
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #00bfff;
-  box-shadow: 0 0 25px rgba(0,191,255,0.8);
-  z-index: 2;
-}
- .orbit-wrapper {
-  position: relative;
-  width: 280px;
-  height: 280px;
-  margin: auto;
-}
-
-.orbit-photo {
-  position: absolute;
-  inset: 30px;
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #00bfff;
-  box-shadow: 0 0 25px rgba(0,191,255,0.8);
-  z-index: 2;
-}
-
-/* rotating ring */
-.orbit-ring {
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  border: 2px dashed rgba(0,191,255,0.4);
-  animation: spin 18s linear infinite;
-}
-
-/* icons */
-.orbit-icon {
-  position: absolute;
-  font-size: 22px;
-  animation: spin 18s linear infinite reverse;
-}
-
-.react { top: -10px; left: 50%; transform: translateX(-50%); }
-.css   { right: -10px; top: 50%; transform: translateY(-50%); }
-.js    { bottom: -10px; left: 50%; transform: translateX(-50%); }
-
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
+.p{ 
+    color: #00bfff;
 }
